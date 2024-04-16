@@ -162,8 +162,8 @@ with colB1:
 # Sample data
 months = ['January', 'February', 'March', 'April', 'May', 'June',
           'July', 'August', 'September', 'October', 'November', 'December']
-profits = [10000, 77000, 17000, 50000, 42000, 40000, 55000, 33000, 29000, 35000, 41000, 56000]
-sales = [800000, 574000, 900000, 850000, 880000, 830000, 1000000, 990000, 930000, 1100000, 1080000, 1120000]
+profits = [30000, 77000, 37000, 50000, 42000, 40000, 55000, 33000, 29000, 35000, 41000, 56000]
+sales = [600000, 574000, 700000, 850000, 880000, 830000, 1000000, 990000, 930000, 1100000, 1080000, 1120000]
 
 # Create subplots and mention that we want to share the x-axis
 barline_fig = make_subplots(specs=[[{"secondary_y": True}]])
