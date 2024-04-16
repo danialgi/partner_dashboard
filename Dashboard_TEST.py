@@ -18,7 +18,7 @@ st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout
 #data_file = st.file_uploader(".xlsx file",type=['xlsx'])
 #st.markdown("#")
 
-st.title(":bar_chart: Sales Dashboard ")
+st.title(":bar_chart:Dashboard ")
 
 df1 = pd.read_excel("Example Data.xlsx",sheet_name="Web")
 df2 = pd.read_excel("Example Data.xlsx",sheet_name="Shopee")
