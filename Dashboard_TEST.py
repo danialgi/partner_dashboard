@@ -20,10 +20,10 @@ st.set_page_config(page_title="Dashboard", page_icon=":bar_chart:", layout="wide
 
 st.title(":bar_chart: Dashboard ")
 
-df1 = pd.read_excel("Example Datas.xlsx",sheet_name="Web")
-df2 = pd.read_excel("Example Datas.xlsx",sheet_name="Shopee")
-df3 = pd.read_excel("Example Datas.xlsx",sheet_name="Lazada")
-df4 = pd.read_excel("Example Datas.xlsx",sheet_name="TikTok")
+df1 = pd.read_excel("Example Data.xlsx",sheet_name="Web")
+df2 = pd.read_excel("Example Data.xlsx",sheet_name="Shopee")
+df3 = pd.read_excel("Example Data.xlsx",sheet_name="Lazada")
+df4 = pd.read_excel("Example Data.xlsx",sheet_name="TikTok")
 
 df1.drop(df1.index[:4], inplace=True)
 df1.columns = df1.iloc[0]
